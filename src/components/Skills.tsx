@@ -14,32 +14,32 @@ const skills = [
   {
     icon: Shield,
     title: "Sécurité",
-    description: "Firewall, IDS/IPS, Cryptographie, Sécurité réseau",
+    description: "Firewall, IDS/IPS, Sécurité réseau",
   },
   {
     icon: Cloud,
     title: "Virtualisation & Cloud",
-    description: "VMware, Hyper-V, Azure, AWS",
+    description: "VMware, PVE",
   },
   {
     icon: Terminal,
     title: "Scripting",
-    description: "PowerShell, Bash, Python",
+    description: "PowerShell",
   },
   {
     icon: Database,
     title: "Bases de données",
-    description: "SQL Server, MySQL, Administration BDD",
+    description: "InfluxDB",
   },
   {
     icon: Settings,
     title: "Maintenance",
-    description: "Gestion de parc, Support utilisateur, GLPI",
+    description: "Gestion de parc, Support utilisateur",
   },
   {
     icon: Users,
     title: "Gestion de projet",
-    description: "ITIL, Méthodes Agiles, Documentation",
+    description: "Documentation",
   },
 ];
 

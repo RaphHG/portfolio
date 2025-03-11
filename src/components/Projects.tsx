@@ -9,17 +9,17 @@ const projects = [
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=2574"
   },
   {
-    title: "Sécurisation Réseau",
+    title: "Déploiement de Poste informatique automatiser",
     icon: Shield,
-    description: "Mise en place d'une politique de sécurité réseau avec pare-feu, VPN et surveillance.",
-    tags: ["Firewall", "VPN", "IDS/IPS"],
+    description: "Mise en place d'un Windows Server 2019 avec WDS et MDT afin de permetre une installation automatiser de Windows 11.",
+    tags: ["Windows Server", "Réseaux", "Automatisation"],
     image: "https://images.unsplash.com/photo-1562813733-b31f71025d54?auto=format&fit=crop&q=80&w=2574"
   },
   {
-    title: "Infrastructure Cloud",
+    title: "Changement d'environnement utilisateurs",
     icon: Network,
-    description: "Déploiement d'une infrastructure hybride avec Azure et synchronisation AD.",
-    tags: ["Azure", "Cloud", "Hybride"],
+    description: "Ajout d'un nouveau Serveur Windows en controleur de domaine + serveur de fichier (redirection de dossier, lecteur réseau, sauvegarde et quota).",
+    tags: ["Windows Server", "Active Directory", "GPO "],
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2574"
   }
 ];
