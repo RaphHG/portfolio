@@ -12,8 +12,7 @@ export default function Hero() {
           </div>
           <h1 className="text-5xl font-bold mb-6">BTS SIO Option SISR</h1>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl">
-            Étudiant passionné en Solutions d'Infrastructure, Systèmes et Réseaux.
-            Spécialisé dans l'administration système, la sécurité informatique et la gestion des réseaux.
+            Étudiant en Solutions d'Infrastructure, Systèmes et Réseaux.
           </p>
           <div className="flex gap-4">
             <a 

@@ -2,26 +2,26 @@ import { Server, Shield, Network } from 'lucide-react';
 
 const projects = [
   {
-    title: "Migration Infrastructure",
+    title: "Déploiment de poste informatique automatiser",
     icon: Server,
-    description: "Migration d'une infrastructure physique vers une solution virtualisée sous VMware vSphere.",
+    description: "Mise en place d'un windows server avec MDT et WDS pour déployer automatique des postes informatique sans intervention humaine.",
     tags: ["VMware", "Windows Server", "Active Directory"],
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=2574"
   },
   {
-    title: "Déploiement de Poste informatique automatiser",
+    title: "Changement de l'environnement Utilisateurs",
     icon: Shield,
-    description: "Mise en place d'un Windows Server 2019 avec WDS et MDT afin de permetre une installation automatiser de Windows 11.",
-    tags: ["Windows Server", "Réseaux", "Automatisation"],
+    description: "Ajout d'un Windows Serveur en tant que Controleur de domaine, et d'un serveur de fichier (redirection de fichier, lecteur réseau, backup, quota).",
+    tags: ["Firewall", "VPN", "IDS/IPS"],
     image: "https://images.unsplash.com/photo-1562813733-b31f71025d54?auto=format&fit=crop&q=80&w=2574"
   },
-  {
-    title: "Changement d'environnement utilisateurs",
-    icon: Network,
-    description: "Ajout d'un nouveau Serveur Windows en controleur de domaine + serveur de fichier (redirection de dossier, lecteur réseau, sauvegarde et quota).",
-    tags: ["Windows Server", "Active Directory", "GPO "],
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2574"
-  }
+  // {
+  //   title: "Infrastructure Cloud",
+  //   icon: Network,
+  //   description: "Déploiement d'une infrastructure hybride avec Azure et synchronisation AD.",
+  //   tags: ["", "Cloud", "Hybride"],
+  //   image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2574"
+  // }
 ];
 
 export default function Projects() {

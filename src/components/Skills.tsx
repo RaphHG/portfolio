@@ -9,7 +9,7 @@ const skills = [
   {
     icon: Network,
     title: "Réseaux",
-    description: "TCP/IP, VLAN, Routage, Switching, VPN",
+    description: "TCP/IP, VLAN, Routage, Switch, VPN",
   },
   {
     icon: Shield,
@@ -19,17 +19,12 @@ const skills = [
   {
     icon: Cloud,
     title: "Virtualisation & Cloud",
-    description: "VMware, PVE",
-  },
-  {
-    icon: Terminal,
-    title: "Scripting",
-    description: "PowerShell",
+    description: "VMware, Proxmox",
   },
   {
     icon: Database,
-    title: "Bases de données",
-    description: "InfluxDB",
+    title: "",
+    description: "",
   },
   {
     icon: Settings,
